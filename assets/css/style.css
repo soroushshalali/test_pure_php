@@ -1,0 +1,23 @@
+.register{
+    background-color: rgba(151, 151, 151, 0.527);
+    width: 500px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    box-shadow: 0 0 4px rgb(121, 121, 121);
+}
+
+.register > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.register > form > input{
+    margin-bottom: 20px;
+    padding: 5px 0;
+}
+
+.register > form > input[type='submit']{
+    width: 80px;
+}
+
+
